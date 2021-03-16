@@ -10,7 +10,6 @@ SlidingDancer.prototype.constructor = SlidingDancer;
 
 SlidingDancer.prototype.step = function () {
   Dancer.prototype.step.call(this);
-  console.log(this.counter);
 
   if (this.counter % 2 === 0) {
     this.$node.animate({left: '+=10px'}, 'fast');
