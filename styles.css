@@ -21,8 +21,16 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid;
+  border:2px solid;
   border-color: red;
   border-radius:10px;
   position:absolute;
+}
+
+.danceFloor{
+  height: 100%;
+  background-image: url('assets/danceFloor.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }

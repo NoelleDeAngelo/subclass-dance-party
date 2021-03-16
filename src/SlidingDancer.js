@@ -12,10 +12,10 @@ SlidingDancer.prototype.step = function () {
   Dancer.prototype.step.call(this);
 
   if (this.counter % 2 === 0) {
-    this.$node.animate({left: '+=10px'}, 'fast');
+    this.$node.animate({left: '+=30px'}, 'fast');
     this.counter++;
   } else {
-    this.$node.animate({left: '-=10px'}, 'fast');
+    this.$node.animate({left: '-=30px'}, 'fast');
     this.counter++;
   }
 };

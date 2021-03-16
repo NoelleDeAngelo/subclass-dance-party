@@ -1,18 +1,14 @@
 var Dancer = function(top, left, timeBetweenSteps) {
-  this.$node = $('<span class="dancer"></span>');
+  this.$node = $("<img src='assets/dancingDog.png' class='dancer' height='50px' width='50px'>");
   this.timeBetweenSteps = timeBetweenSteps;
 
   this.setPosition(top, left);
   this.step();
 };
 
-// use jQuery to create an HTML <span> tag
-
-
 Dancer.prototype.step = function() {
   setTimeout(this.step.bind(this), this.timeBetweenSteps);
 };
-
 
 Dancer.prototype.setPosition = function(top, left) {
   var styleSettings = {
