@@ -1,5 +1,4 @@
 describe('BlinkyDancer', function() {
-
   var blinkyDancer, clock;
   var timeBetweenSteps = 100;
 

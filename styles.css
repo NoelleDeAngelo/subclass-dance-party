@@ -23,7 +23,8 @@ body, a:link, a:visited, a:active{
 .dancer{
   border:2px solid;
   border-color: red;
-  border-radius:10px;
+  background-color: green;
+  border-radius:25px;
   position:absolute;
 }
 
